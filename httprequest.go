@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func httpRequest(method string, url string, headers map[string]string, payload []byte) (*http.Response, error) {
+func HttpRequest(method string, url string, headers map[string]string, payload []byte) (*http.Response, error) {
 
 	var req = &http.Request{}
 	var err error
